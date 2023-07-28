@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="potencias_eliezer.MainPage">
+    
+    <StackLayout Margin="20,35,20,20">
+        <Label Text="Numeros al cuadrado"/>
+        <Entry x:Name="Entry1" Placeholder="Ingrese numero a elevar"/>
+        <Label x:Name="ResultadoCuadrado" Text="Resultado"/>
+        <Button x:Name="BtnCalcularSquare" Text="Elevar" Clicked="BtnCalcularSquare_Clicked"/>
+
+        <Label Text="Numeros al cuadrado"/>
+        <Entry x:Name="Entry2" Placeholder="Ingrese numero a elevar"/>
+        <Label x:Name="ResultadoCubo" Text="Resultado"/>
+        <Button x:Name="BtnCalcularCube" Text="Elevar" Clicked="BtnCalcularCube_Clicked"/>
+
+        <Button x:Name="Close" Text="Cerrar" Clicked="Close_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
